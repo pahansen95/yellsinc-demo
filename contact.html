@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact YELLS, Inc. - Reach out to learn more about our youth empowerment programs in Marietta, Georgia.">
+    <title>Contact Us - YELLS, Inc.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto+Slab:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__social">
+                    <a href="https://facebook.com/yellsinc" aria-label="Facebook">Facebook</a>
+                    <a href="https://twitter.com/yellsinc" aria-label="Twitter">Twitter</a>
+                    <a href="https://instagram.com/yellsinc" aria-label="Instagram">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="header__main">
+            <div class="container">
+                <a href="index.html">
+                    <img src="images/YELLSLogoBrighter.png" alt="YELLS - Youth Empowerment through Learning, Leading, and Serving" class="header__logo">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav" aria-label="Main navigation">
+        <div class="nav__container">
+            <button class="nav__toggle" aria-label="Toggle navigation" aria-expanded="false">
+                &#9776;
+            </button>
+            <ul class="nav__menu">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="programs.html" class="nav__link">Programs</a></li>
+                <li class="nav__item"><a href="get-involved.html" class="nav__link">Get Involved</a></li>
+                <li class="nav__item"><a href="news.html" class="nav__link">News</a></li>
+                <li class="nav__item"><a href="contact.html" class="nav__link nav__link--active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main role="main">
+        <!-- Page Banner -->
+        <section class="page-banner">
+            <img src="images/contactbanner.png" alt="YELLS community" class="page-banner__image">
+            <div class="page-banner__overlay">
+                <h1 class="page-banner__title">Contact Us</h1>
+            </div>
+        </section>
+
+        <!-- Contact Content -->
+        <section class="section">
+            <div class="container">
+                <div class="two-column">
+                    <div class="two-column__main">
+                        <h2>Get in Touch</h2>
+                        <p>We'd love to hear from you! Whether you have questions about our programs, want to volunteer, or are interested in supporting YELLS, please reach out using the form below or contact us directly.</p>
+
+                        <form class="contact-form" id="contact-form">
+                            <div class="form-group">
+                                <label for="name">Your Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Select a topic...</option>
+                                    <option value="programs">Program Information</option>
+                                    <option value="enrollment">Program Enrollment</option>
+                                    <option value="volunteer">Volunteering</option>
+                                    <option value="donate">Donations/Sponsorship</option>
+                                    <option value="jobs">Employment Opportunities</option>
+                                    <option value="media">Media/Press Inquiry</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" required placeholder="How can we help you?"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn--primary btn--large">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="two-column__sidebar">
+                        <div class="contact-info sidebar-widget">
+                            <h3 class="sidebar-widget__title">Contact Information</h3>
+
+                            <div class="contact-info__item">
+                                <span class="contact-info__icon">&#128205;</span>
+                                <div>
+                                    <strong>Location</strong><br>
+                                    Franklin Gateway<br>
+                                    Marietta, Georgia 30060
+                                </div>
+                            </div>
+
+                            <div class="contact-info__item">
+                                <span class="contact-info__icon">&#9993;</span>
+                                <div>
+                                    <strong>Email</strong><br>
+                                    <a href="mailto:info@yellsinc.org">info@yellsinc.org</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-info__item">
+                                <span class="contact-info__icon">&#127760;</span>
+                                <div>
+                                    <strong>Website</strong><br>
+                                    <a href="https://yellsinc.org">yellsinc.org</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sidebar-widget">
+                            <h3 class="sidebar-widget__title">Follow Us</h3>
+                            <p>Stay connected with YELLS on social media for the latest news, events, and stories from our programs.</p>
+                            <div class="footer__social" style="margin-top: var(--spacing-sm);">
+                                <a href="https://facebook.com/yellsinc" aria-label="Facebook">FB</a>
+                                <a href="https://twitter.com/yellsinc" aria-label="Twitter">TW</a>
+                                <a href="https://instagram.com/yellsinc" aria-label="Instagram">IG</a>
+                            </div>
+                        </div>
+
+                        <div class="sidebar-widget donate-widget">
+                            <h3 class="sidebar-widget__title donate-widget__title">Support YELLS</h3>
+                            <p class="donate-widget__text">Your contribution helps empower youth in our community.</p>
+                            <a href="get-involved.html#donate" class="btn">Donate Today</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="section section--gray">
+            <div class="container">
+                <h2 class="text-center mb-3">Frequently Asked Questions</h2>
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <div style="margin-bottom: var(--spacing-md);">
+                        <h4>How can I enroll my child in YELLS programs?</h4>
+                        <p>Contact us using the form above or email us at <a href="mailto:info@yellsinc.org">info@yellsinc.org</a>. We'll provide you with enrollment information and let you know about current program availability.</p>
+                    </div>
+
+                    <div style="margin-bottom: var(--spacing-md);">
+                        <h4>What ages do you serve?</h4>
+                        <p>YELLS programs serve youth from elementary school through young adulthood. Our Afterschool Program serves elementary and middle school students, while our Mentoring Program and Community Action Cafe serve middle and high school students.</p>
+                    </div>
+
+                    <div style="margin-bottom: var(--spacing-md);">
+                        <h4>How can I volunteer?</h4>
+                        <p>We're always looking for dedicated volunteers! Visit our <a href="get-involved.html#volunteer">Volunteer page</a> to learn about opportunities, or contact us directly to discuss how you can help.</p>
+                    </div>
+
+                    <div style="margin-bottom: var(--spacing-md);">
+                        <h4>Is my donation tax-deductible?</h4>
+                        <p>Yes! YELLS, Inc. is a registered 501(c)(3) nonprofit organization. All donations are tax-deductible to the fullest extent of the law. You will receive a receipt for your records.</p>
+                    </div>
+
+                    <div style="margin-bottom: var(--spacing-md);">
+                        <h4>Where is YELLS located?</h4>
+                        <p>YELLS is based in the Franklin Gateway community of Marietta, Georgia, serving youth in the greater Marietta area.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer__grid">
+                <div>
+                    <h4 class="footer__title">About YELLS</h4>
+                    <p>YELLS, Inc. is a 501(c)(3) non-profit organization empowering youth in the Franklin Gateway community of Marietta, Georgia since 2008.</p>
+                </div>
+                <div>
+                    <h4 class="footer__title">Quick Links</h4>
+                    <ul class="footer__links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="get-involved.html">Get Involved</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer__title">Connect With Us</h4>
+                    <div class="footer__social">
+                        <a href="https://facebook.com/yellsinc" aria-label="Facebook">FB</a>
+                        <a href="https://twitter.com/yellsinc" aria-label="Twitter">TW</a>
+                        <a href="https://instagram.com/yellsinc" aria-label="Instagram">IG</a>
+                    </div>
+                    <p class="mt-2">
+                        Franklin Gateway<br>
+                        Marietta, Georgia<br>
+                        <a href="mailto:info@yellsinc.org">info@yellsinc.org</a>
+                    </p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2024 YELLS, Inc. All rights reserved. | Youth Empowerment through Learning, Leading, & Serving</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
