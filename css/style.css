@@ -957,3 +957,39 @@ h6 { font-size: 0.906em; }
     max-width: 200px;
   }
 }
+
+/* ============================================
+   Demo Site Banner
+   ============================================ */
+.demo-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background-color: #b45309;
+  color: white;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  font-family: var(--font-body);
+}
+
+.demo-banner__link {
+  color: white;
+  text-decoration: underline;
+  margin-left: 0.25rem;
+}
+
+.demo-banner__link:hover {
+  color: #fef3c7;
+}
+
+body.has-demo-banner {
+  padding-top: 36px;
+}
+
+body.has-demo-banner .nav {
+  top: 36px;
+}
